@@ -6,6 +6,19 @@
     <description>Walasr changelog</description>
     <language>en</language>
     <item>
+      <title>Version 0.1.1</title>
+      <description><![CDATA[<p><strong>What's New</strong></p><ul><li><strong>Choose when the iqamah countdown appears.</strong> Start it right at the adhan (as before) or only a few minutes before iqamah, e.g. 5 minutes before when your mosque waits 15.</li><li><strong>Switch to full screen near iqamah.</strong> The countdown can start quietly in the notch and move to full screen a few minutes before iqamah.</li><li><strong>Live iqamah countdown in the menu bar,</strong> to the second, matching the one on screen.</li><li><strong>"Now" status after the adhan.</strong> The menu bar and schedule panel show the current prayer and time to iqamah instead of jumping straight to the next prayer.</li><li><strong>New app icon.</strong></li><li><strong>Simpler countdown styles:</strong> Notch or Full screen. If you used Window, Walasr switches you to Full screen.</li></ul><p><strong>Bug Fixes</strong></p><ul><li><strong>Countdown digits roll again</strong> instead of just swapping each second.</li><li><strong>Darkening and blur are smooth</strong> instead of stepping once a second.</li><li><strong>The adhan notch and the iqamah countdown no longer overlap.</strong> The countdown waits until the adhan moment is done.</li><li><strong>Much lower CPU use</strong> with the panel or countdown open. The night-sky panel went from about 4% to near zero.</li></ul>]]></description>
+      <sparkle:version>4</sparkle:version>
+      <sparkle:shortVersionString>0.1.1</sparkle:shortVersionString>
+      <pubDate>Tue, 13 Oct 2026 07:22:22 +0000</pubDate>
+      <enclosure
+        url="https://github.com/tinyshipsailors/walasr.app/releases/download/v0.1.1/Walasr-v0.1.1.dmg"
+        sparkle:edSignature="23TDTDxxzkrBPLCDtTbL/lrBTjFlUbg6dmuzZAgqTvIJuoqYN9Qj1mS+x6lTrYZWY0gj5I0WS1oibH8nJ/bPCQ=="
+        length="4500281"
+        type="application/octet-stream"
+      />
+    </item>
+    <item>
       <title>Version 0.1.0</title>
       <description><![CDATA[<p><strong>What's New</strong></p><ul><li><strong>Official prayer times in your menu bar.</strong> Kemenag RI for Indonesia (per regency/city), JAKIM for Malaysia, MUIS for Singapore, and astronomical calculation everywhere else. Times are downloaded once a month and keep working offline.</li><li><strong>Iqamah countdown after every adhan.</strong> Show it in the notch, full screen or a window, and set how many minutes each prayer's iqamah gap is.</li><li><strong>The screen slowly darkens and blurs until iqamah,</strong> so you stop working in time to pray. Turn either off in Settings, or for a single prayer minimize the countdown to the notch or switch off dim &amp; blur.</li><li><strong>Snooze, skip, Friday and pause.</strong> Snooze once for 5 minutes, skip when you've prayed, get a Jumu'ah reminder before Dhuhr on Fridays, and pause reminders for a few days when you need to.</li><li><strong>Notch view on MacBooks.</strong> See the next prayer and its countdown beside the notch, alongside or instead of the menu bar.</li><li><strong>A schedule panel that follows the sky,</strong> with a sun arc across the day, the Hijri date and the next prayer time front and center.</li><li><strong>Reminders before each prayer</strong> and a soft chime when the time comes, plus a short ayah about prayer during the countdown.</li><li><strong>12- or 24-hour time, per-prayer minute corrections, Indonesian and English.</strong></li><li><strong>Free, with no account and no tracking.</strong></li></ul>]]></description>
       <sparkle:version>3</sparkle:version>
