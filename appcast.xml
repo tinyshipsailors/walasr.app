@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
   <channel>
-    <title>Work As Ibadah</title>
-    <link>https://raw.githubusercontent.com/tinyshipsailors/workasibadah.app/main/appcast.xml</link>
-    <description>Work As Ibadah changelog</description>
+    <title>Walasr</title>
+    <link>https://raw.githubusercontent.com/tinyshipsailors/walasr.app/main/appcast.xml</link>
+    <description>Walasr changelog</description>
     <language>en</language>
   </channel>
 </rss>
