@@ -6,6 +6,19 @@
     <description>Walasr changelog</description>
     <language>en</language>
     <item>
+      <title>Version 0.1.2</title>
+      <description><![CDATA[<p><strong>What's New</strong></p><ul><li><strong>Works across all your displays.</strong> The full-screen countdown now appears on every screen, with its buttons on the screen your pointer is on. Reminders and the notch countdown also show a small pill on external displays. Prefer one screen? Choose "Main screen only" in Settings › Iqamah.</li><li><strong>Close or shrink the notch countdown.</strong> The × button hides it for that prayer (darkening and blur too, while the menu bar keeps counting). The minimize button shrinks it to a small icon and timer; click it to open it again.</li><li><strong>Set each prayer's iqamah gap during setup,</strong> so the countdown matches your nearest masjid from the start.</li><li><strong>Blur is now off by default</strong> (darkening stays on). Turn it on anytime in Settings › Iqamah.</li></ul><p><strong>Bug Fixes</strong></p><ul><li><strong>The screen never freezes anymore.</strong> In the last 2 minutes before iqamah the countdown used to block clicks and keyboard; now your work stays usable the whole time and only the countdown's own buttons take clicks.</li><li><strong>Switching the countdown style back to Notch works during a countdown.</strong> It used to stay full screen until the next prayer.</li><li><strong>The 15-second preview switches to full screen at the right moment</strong> for your "minutes before iqamah" setting, instead of always after 6 seconds.</li></ul>]]></description>
+      <sparkle:version>5</sparkle:version>
+      <sparkle:shortVersionString>0.1.2</sparkle:shortVersionString>
+      <pubDate>Tue, 13 Oct 2026 10:23:34 +0000</pubDate>
+      <enclosure
+        url="https://github.com/tinyshipsailors/walasr.app/releases/download/v0.1.2/Walasr-v0.1.2.dmg"
+        sparkle:edSignature="JnzwzAJTVfhwwmnFB+aEEVJt7FnWIJgcFfDjBeVlCcQWKYV3BdftXYSdtpwwHfbvqUb7FxYDiLdJlgifVJ4bCA=="
+        length="4567210"
+        type="application/octet-stream"
+      />
+    </item>
+    <item>
       <title>Version 0.1.1</title>
       <description><![CDATA[<p><strong>What's New</strong></p><ul><li><strong>Choose when the iqamah countdown appears.</strong> Start it right at the adhan (as before) or only a few minutes before iqamah, e.g. 5 minutes before when your mosque waits 15.</li><li><strong>Switch to full screen near iqamah.</strong> The countdown can start quietly in the notch and move to full screen a few minutes before iqamah.</li><li><strong>Live iqamah countdown in the menu bar,</strong> to the second, matching the one on screen.</li><li><strong>"Now" status after the adhan.</strong> The menu bar and schedule panel show the current prayer and time to iqamah instead of jumping straight to the next prayer.</li><li><strong>New app icon.</strong></li><li><strong>Simpler countdown styles:</strong> Notch or Full screen. If you used Window, Walasr switches you to Full screen.</li></ul><p><strong>Bug Fixes</strong></p><ul><li><strong>Countdown digits roll again</strong> instead of just swapping each second.</li><li><strong>Darkening and blur are smooth</strong> instead of stepping once a second.</li><li><strong>The adhan notch and the iqamah countdown no longer overlap.</strong> The countdown waits until the adhan moment is done.</li><li><strong>Much lower CPU use</strong> with the panel or countdown open. The night-sky panel went from about 4% to near zero.</li></ul>]]></description>
       <sparkle:version>4</sparkle:version>
