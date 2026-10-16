@@ -6,6 +6,19 @@
     <description>Walasr changelog</description>
     <language>en</language>
     <item>
+      <title>Version 0.2.1</title>
+      <description><![CDATA[<p><strong>Bug Fixes</strong></p><ul><li><strong>The iqamah countdown is back beside the prayer name.</strong> In v0.2.0 the window buttons pushed the countdown onto its own row; now the number sits on the same line as "Asr · Iqamah in" again.</li><li><strong>Smaller, tidier window buttons.</strong> Dim/blur off, minimize and close are small buttons in the card's top-right corner that never move the layout. The same goes for the adhan, reminder and Friday notch, and for the full-screen countdown.</li><li><strong>Full-screen countdown buttons no longer look greyed out</strong> while you're working in another app.</li></ul>]]></description>
+      <sparkle:version>7</sparkle:version>
+      <sparkle:shortVersionString>0.2.1</sparkle:shortVersionString>
+      <pubDate>Fri, 16 Oct 2026 09:56:35 +0000</pubDate>
+      <enclosure
+        url="https://github.com/tinyshipsailors/walasr.app/releases/download/v0.2.1/Walasr-v0.2.1.dmg"
+        sparkle:edSignature="pAbFQ34HtvyEEy3TNC0sCQT1B30woWb2MFaqatFVYsjkAvX4Sw1xAFbBQB8Bu7D28euM9kTdTorBz7ibrStXDQ=="
+        length="4673790"
+        type="application/octet-stream"
+      />
+    </item>
+    <item>
       <title>Version 0.2.0</title>
       <description><![CDATA[<p><strong>What's New</strong></p><ul><li><strong>Lock your Mac at iqamah (optional).</strong> Turn it on in Settings › Iqamah to lock your Mac at iqamah or a few minutes after, per prayer. A 10-second warning appears on every screen first, with Cancel (or Esc) if you need a moment. It never locks while you're sharing or presenting your screen, after you skip or close the countdown, or when you wake your Mac after iqamah has passed.</li><li><strong>Close the adhan and reminder notch</strong> with the new × button.</li><li><strong>Change the menu bar display from the right-click menu.</strong> Pick a format under "Menu Bar Display" without opening Settings.</li><li><strong>Cleaner notch controls.</strong> Minimize and close sit in the top-right corner, apart from Snooze and I've prayed.</li></ul><p><strong>Bug Fixes</strong></p><ul><li><strong>The "10 minutes left" reminder no longer shows twice.</strong></li><li><strong>The notch sits on the camera notch even when your MacBook isn't the main display.</strong></li><li><strong>Friday's countdown now says "Jumu'ah adhan in"</strong> instead of counting down to iqamah.</li><li><strong>The lock warning always appears for a full 10 seconds before your Mac locks.</strong> If the warning can't be shown, Walasr skips the lock.</li></ul>]]></description>
       <sparkle:version>6</sparkle:version>
