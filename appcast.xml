@@ -6,6 +6,19 @@
     <description>Walasr changelog</description>
     <language>en</language>
     <item>
+      <title>Version 0.2.0</title>
+      <description><![CDATA[<p><strong>What's New</strong></p><ul><li><strong>Lock your Mac at iqamah (optional).</strong> Turn it on in Settings › Iqamah to lock your Mac at iqamah or a few minutes after, per prayer. A 10-second warning appears on every screen first, with Cancel (or Esc) if you need a moment. It never locks while you're sharing or presenting your screen, after you skip or close the countdown, or when you wake your Mac after iqamah has passed.</li><li><strong>Close the adhan and reminder notch</strong> with the new × button.</li><li><strong>Change the menu bar display from the right-click menu.</strong> Pick a format under "Menu Bar Display" without opening Settings.</li><li><strong>Cleaner notch controls.</strong> Minimize and close sit in the top-right corner, apart from Snooze and I've prayed.</li></ul><p><strong>Bug Fixes</strong></p><ul><li><strong>The "10 minutes left" reminder no longer shows twice.</strong></li><li><strong>The notch sits on the camera notch even when your MacBook isn't the main display.</strong></li><li><strong>Friday's countdown now says "Jumu'ah adhan in"</strong> instead of counting down to iqamah.</li><li><strong>The lock warning always appears for a full 10 seconds before your Mac locks.</strong> If the warning can't be shown, Walasr skips the lock.</li></ul>]]></description>
+      <sparkle:version>6</sparkle:version>
+      <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
+      <pubDate>Fri, 16 Oct 2026 09:31:55 +0000</pubDate>
+      <enclosure
+        url="https://github.com/tinyshipsailors/walasr.app/releases/download/v0.2.0/Walasr-v0.2.0.dmg"
+        sparkle:edSignature="3C9gPx2ts8RZjZauxccswFQXfROmhNwl6rp4FckdTCO52/uV0e0YJ6wlDvr+B0t3sjd2xz89GZRla8gKS9IdDQ=="
+        length="4667553"
+        type="application/octet-stream"
+      />
+    </item>
+    <item>
       <title>Version 0.1.2</title>
       <description><![CDATA[<p><strong>What's New</strong></p><ul><li><strong>Works across all your displays.</strong> The full-screen countdown now appears on every screen, with its buttons on the screen your pointer is on. Reminders and the notch countdown also show a small pill on external displays. Prefer one screen? Choose "Main screen only" in Settings › Iqamah.</li><li><strong>Close or shrink the notch countdown.</strong> The × button hides it for that prayer (darkening and blur too, while the menu bar keeps counting). The minimize button shrinks it to a small icon and timer; click it to open it again.</li><li><strong>Set each prayer's iqamah gap during setup,</strong> so the countdown matches your nearest masjid from the start.</li><li><strong>Blur is now off by default</strong> (darkening stays on). Turn it on anytime in Settings › Iqamah.</li></ul><p><strong>Bug Fixes</strong></p><ul><li><strong>The screen never freezes anymore.</strong> In the last 2 minutes before iqamah the countdown used to block clicks and keyboard; now your work stays usable the whole time and only the countdown's own buttons take clicks.</li><li><strong>Switching the countdown style back to Notch works during a countdown.</strong> It used to stay full screen until the next prayer.</li><li><strong>The 15-second preview switches to full screen at the right moment</strong> for your "minutes before iqamah" setting, instead of always after 6 seconds.</li></ul>]]></description>
       <sparkle:version>5</sparkle:version>
